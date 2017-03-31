@@ -26,7 +26,7 @@ public class MyThread extends Thread{
 	    sum++;
 	    //String str = "file_name="+ num +"" +"_1489987417&file_number=5&type=1&age=50&sex=1";
 	    //System.out.println(str);
-	    String sr=HttpRequest.sendPost("http://182.92.96.114:1080/bupa/Test_Voice", "file_name=8_1489987417&file_number=5&type=1&age=50&sex=1");
+	    String sr=HttpRequest.sendPost("http://182.92.96.114:1080/bupa/Test_Voice", "file_name=10_1489848312&file_number=5&type=1&age=50&sex=1");
 		//System.out.println("”… " +this.currentThread().getName()+" º∆À„, count="+count);
 		//System.out.println(sr+count+"");
 		//System.out.println(sum*50);
